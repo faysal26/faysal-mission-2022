@@ -7,8 +7,8 @@ body{
 }
 .landing-page{
 display: flex;
-margin-top: 100px;
-margin-bottom: 150px;
+margin-top: 120px;
+margin-bottom: 200px;
 }
 .left-container{
 width: 50%;
@@ -16,29 +16,40 @@ margin-left: 160px;
 margin-right: 250px;
 }
 .head-txt{
-    border-left: 7px solid orange;
+    border-left: 5px solid orange;
     border-radius: 5px;
-    font-family: 'Prata', serif;
+    /* font-family: 'Prata', serif; */
+    font-family: 'Yeseva One', cursive;
     font-size: 40px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
-#head-txt{
+#mission-txt{
+    margin-bottom: 20px;
+}
+#mission-txt2{
     color: tomato;
+    margin-top: 0px;
 }
 #about{
     margin-bottom: 40px;
 }
 #button{
     text-decoration: none;
-    background-color: black;
     border-radius: 5px;
     color: white;
-    padding: 12px 30px;
-    font-size: 18px;
+    padding: 8px 35px;
+    font-size: 20px;
     margin-bottom: 40px;
+    background-color: rgb(248, 176, 43);
+    font-family: 'Baloo Bhai 2', cursive;
 }
 #button:hover{
-    background-color: red;
+    background-color: rgb(202, 134, 8);
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 8px 35px;
+    font-size: 20px;
+
 }
 .left-container div p{
     margin-top: 60px;
@@ -51,9 +62,10 @@ margin-right: 250px;
     margin-bottom: 100px;
 }
 .mission-title{
-     font-family: 'El Messiri', sans-serif;
+     /* font-family: 'El Messiri', sans-serif; */
+     font-family: 'Baloo Bhai 2', cursive;
      font-size: 60px;
-     margin-bottom: 0px;
+     margin-bottom: 5px;
 }
 .mission span{
     color: tomato;
@@ -67,21 +79,21 @@ padding: 0px 30px 0px 30px;
 }
 .mission-deatls-1{
 text-align: left;
-background-color: rgb(233, 228, 164);
+background-color: rgb(206, 226, 215);
 border-radius: 15px;
 margin: 30px;
 padding: 30px;
 }
 .mission-deatls-2{
 text-align: left;
-background-color: rgb(185, 216, 199);
+background-color: rgb(224, 222, 193);
 border-radius: 15px;
 margin: 30px;
 padding: 30px;
 }
 .mission-deatls-3{
 text-align: left;
-background-color: rgb(191, 187, 219);
+background-color: rgb(202, 199, 223);
 border-radius: 15px;
 margin: 30px;
 padding: 30px;
@@ -108,7 +120,9 @@ text-align: left;
 .hw-container-title{
     font-size: 50px;
     margin-bottom: 2px;
-
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 0px;
+    
 }
 .hw-container-right p{
 margin-bottom: 35px;
@@ -116,14 +130,15 @@ padding-right: 120px;
 }
 .hw-button{
     text-decoration: none;
-    background-color: black;
     border-radius: 5px;
     color: white;
-    padding: 15px 40px;
-    font-size: 18px;
+    padding: 10px 40px;
+    font-size: 22px;
+    background-color: rgb(248, 176, 43);
+    font-family: 'Baloo Bhai 2', cursive;
 }
 .hw-button:hover{
-    background-color: red;
+    background-color: rgb(202, 134, 8);
 }
 .team{
 display: flex;

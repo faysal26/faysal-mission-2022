@@ -119,6 +119,10 @@ body {
   width: 30%;
   padding: 10px 0 80px 30px;
   margin-left: 150px;
+  background-image: url(./image/banner/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: left center;
 }
 .hw-container-right {
   width: 50%;

@@ -8,12 +8,13 @@ body{
 .landing-page{
 display: flex;
 margin-top: 120px;
-margin-bottom: 200px;
+margin-bottom: 180px;
 }
 .left-container{
 width: 50%;
-margin-left: 160px;
-margin-right: 250px;
+margin-left: 200px;
+margin-right: 50px;
+padding-right: 100px;
 }
 .head-txt{
     border-left: 5px solid orange;
@@ -23,15 +24,20 @@ margin-right: 250px;
     font-size: 40px;
     padding-left: 20px;
 }
+
 #mission-txt{
     margin-bottom: 20px;
 }
 #mission-txt2{
-    color: tomato;
+    color: rgb(253, 104, 77);
     margin-top: 0px;
+}
+.mission-box-title{
+    font-family: 'Baloo Bhai 2', cursive;
 }
 #about{
     margin-bottom: 40px;
+    padding-right: 50px;
 }
 #button{
     text-decoration: none;
@@ -44,7 +50,8 @@ margin-right: 250px;
     font-family: 'Baloo Bhai 2', cursive;
 }
 #button:hover{
-    background-color: rgb(202, 134, 8);
+    /* background-color: rgb(202, 134, 8); */
+    background-image: linear-gradient(rgb(255, 166, 2), rgb(119, 117, 117));
     color: white;
     font-family: 'Baloo Bhai 2', cursive;
     padding: 8px 35px;
@@ -59,11 +66,12 @@ margin-right: 250px;
 }
 .mission{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .mission-title{
      /* font-family: 'El Messiri', sans-serif; */
-     font-family: 'Baloo Bhai 2', cursive;
+     /* font-family: 'Baloo Bhai 2', cursive; */
+     font-family: 'Teko', sans-serif;
      font-size: 60px;
      margin-bottom: 5px;
 }
@@ -83,6 +91,7 @@ background-color: rgb(206, 226, 215);
 border-radius: 15px;
 margin: 30px;
 padding: 30px;
+text-align: center;
 }
 .mission-deatls-2{
 text-align: left;
@@ -90,6 +99,7 @@ background-color: rgb(224, 222, 193);
 border-radius: 15px;
 margin: 30px;
 padding: 30px;
+text-align: center;
 }
 .mission-deatls-3{
 text-align: left;
@@ -97,6 +107,10 @@ background-color: rgb(202, 199, 223);
 border-radius: 15px;
 margin: 30px;
 padding: 30px;
+text-align: center;
+}
+.mission p{
+    text-align: left;
 }
 .hard-work{
 display: flex;
@@ -138,7 +152,8 @@ padding-right: 120px;
     font-family: 'Baloo Bhai 2', cursive;
 }
 .hw-button:hover{
-    background-color: rgb(202, 134, 8);
+    /* background-color: rgb(202, 134, 8); */
+    background-image: linear-gradient(rgb(255, 166, 2), rgb(119, 117, 117));
 }
 .team{
 display: flex;

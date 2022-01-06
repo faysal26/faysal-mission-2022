@@ -118,7 +118,7 @@ body {
 .hard-work {
   display: flex;
   text-align: center;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 .hw-container-left {
   width: 30%;
@@ -157,16 +157,18 @@ body {
 }
 .team {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .team-left {
   width: 60%;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-left: 200px;
   padding-right: 50px;
+  margin-left: 0px;
 }
 .team-right {
   width: 40%;
+  padding-top: 0px;
 }
 .team-left p {
   padding-top: 15px;

@@ -216,6 +216,12 @@ body {
   box-shadow: 10px 10px 30px rgb(46, 45, 45);
   margin-left: 25px;
 }
+#project-1:hover {
+  transform: scale(1.1)
+}
+#project-2:hover {
+  transform: scale(1.1)
+}
 .project-name {
   font-size: large;
   font-family: "Baloo Bhai 2", cursive;

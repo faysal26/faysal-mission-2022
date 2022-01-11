@@ -210,17 +210,19 @@ body {
   box-shadow: 10px 10px 30px rgb(46, 45, 45);
   margin-right: 25px;
   margin-left: 22px;
+  transition: transform 1s;
 }
 #project-2 {
   padding: 10px;
   box-shadow: 10px 10px 30px rgb(46, 45, 45);
   margin-left: 25px;
+  transition: transform 1s;
 }
 #project-1:hover {
-  transform: scale(1.1)
+  transform: scale(1.05)
 }
 #project-2:hover {
-  transform: scale(1.1)
+  transform: scale(1.05)
 }
 .project-name {
   font-size: large;
